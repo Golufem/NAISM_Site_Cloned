@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Oswald:wght@200;300;400;600&display=swap');
+@import url('https: //db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu');
+*{
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    z-index: -2 !important;
+}
+.nav_text{
+    
+    font-size: 600;
+    max-width: 400px;
+}
+.btn-nav{
+    width: 300px;
+}
+
+
+.navmi:hover{
+    color: black !important
+}
+.now{
+    border-bottom: 3px green solid
+}
+.welcome{
+  height: 120vh;
+    /* background-color: green; */
+    display: flex;
+}
+.box1,.box2{
+    width: 50%;
+}
+.box1{
+    background-color: bisque !important;
+    padding: 6%;
+}
+.querymi2{
+    display: none;
+}
+
+
+.welcome_logo{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 3rem;
+}
+.heading{
+    text-decoration: underline;
+    font-size:24px;
+    font-weight: 400;
+    line-height: 36px;
+   
+}
+.headingbody{
+    font-size:40px;
+    font-weight: 400;
+    line-height: 56px;
+    
+}
+.body{
+    font-size:16px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+.box2{
+    width: 50%;
+    height: inherit;
+}
+.carouselImage{
+    width: 100%;
+    height: 100%;
+}
+.covid-19{
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+.covid-19 p{
+    margin: 6px;
+}
+.flex{
+    display: flex;
+}
+.head1{
+    margin-top: 4rem;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.head2{
+    margin-top: 4rem;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+
+}
+ .linkmi:hover{
+    text-decoration: underline !important;
+}
+.sign{
+    margin-top: 6rem;
+}
+.note{
+    width: 45%
+}
+.abouthead{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+#ourprogrammes{
+    margin-top: 2rem;
+   background-color: rgb(232, 232, 247)
+}
+.program{
+    max-width: 50%;
+}
+.column1, .column2{
+  width:48%;
+}
+.columnImage{
+   width: 100%;
+    height: 14rem;
+}
+.mioni{
+   width: 100%;
+   /* background-color: red; */
+    justify-content: space-between !important;
+    /* display: none !important; */
+}
+.programheading{
+    margin-top: 1rem;
+     font-weight: 700;
+     font-size: 40px;
+     /* line-height: 36px; */
+}
+.secondbutton{
+    background-color: rgb(156, 236, 236);
+}
+.textprogramme{
+    height:400px;
+    position: relative;
+    /* background-color: red; */
+}
+.buttons{
+    position: absolute;
+   left: 0;
+    bottom: 0;
+    
+}
+#latestnews{
+    margin-top: 5%;
+}
+.details{
+    width: 90%;
+    margin: auto;
+    /* text-align: center; */
+}
+.newsimg, .detailsnote{
+    width: 100%;
+}
+
+
+.date{
+    border-bottom: 2px solid yellow;
+}
+
+.contacticon{
+    
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.contacticon a, i{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.popup{
+    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(65, 55, 55, 0.5);
+    height: 120vh;
+    width: 100%;
+    overflow: scroll;
+    z-index: 2;
+}
+.colored{
+    height: 200vh;
+    width: 80%;
+    margin:auto;
+    background-color:#fff;
+    margin: 40px, 0;
+}
+
+
+
+
+

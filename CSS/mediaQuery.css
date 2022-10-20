@@ -1,0 +1,95 @@
+@media (max-width: 960px){
+    body{
+       width: 100% !important;
+    }
+   
+
+   .box1,.box2{
+    width: 100%;
+   }
+   .welcome{
+    display: block;
+    position: relative;
+   }
+   .box1{
+    position: absolute;
+         top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        color: black;
+        width: 100%;
+        height: inherit;
+    background-color: rgba(143, 120, 91,0.5) !important;
+        text-align: left;
+        z-index: 1;
+        text-align: center;
+        color: white;
+    
+        margin: auto;
+   }
+   .box2{
+    position: relative;
+    /* z-index: -1; */
+   }
+   .presimin{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .pressImage,.aboutpics{
+   width: 100%;
+    margin: auto;
+    margin-bottom: -10%;
+   }
+   .aboutpics{
+    margin-bottom: 0;
+   }
+   .pressii2, .note{
+    text-align: center;
+    width: 90%;
+    padding: 5%;
+   }
+   .mioni{
+    flex-direction: column-reverse;
+   }
+   .picture{
+    text-align: center;
+    
+   }
+   .doublecoloum{
+    display: block !important;
+   }
+   .column1{
+    width: 90% !important;
+   }
+   .detailsnote{
+    padding: 5%;
+   }
+   .column2{
+    display: none;
+   }
+   .textprogramme{
+    height: 600px  ;
+   
+}
+.small{
+    margin-left:1rem !important ;
+    margin-right:1rem !important;
+}
+.firbutton{
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0.5rem, 0.5rem !important;
+    margin: 0 !important;
+    color: red!important;
+}
+
+
+/* .buttons{
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+} */
+
+}
